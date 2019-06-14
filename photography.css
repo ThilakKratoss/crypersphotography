@@ -1,0 +1,153 @@
+body,html{
+    height:100%;
+    margin:0;
+    font-size:16px;
+    font-family:"Lato",sans-serif;
+    font-weight:400;
+    line-height:1.8em;
+    color:#666;
+}
+
+.ping1,.ping2,.ping3,.ping4{
+    position:relative;
+    opacity:0.70;
+    background-position:center;
+    background-size:cover;
+    background-repeat:no-repeat;
+    
+
+    background-attachment:fixed;
+}
+.ping1{
+    background-image:url('7.jpg');
+    min-height:100%;
+       
+
+   
+}
+
+
+.ping2{
+    background-image:url('4.jpg');
+    min-height:100%;
+    background-size:cover;
+}
+
+
+.ping3{
+    background-image:url('3.jpg');
+    min-height:100%;
+    background-size:cover;
+}
+
+.ping4{
+    background-image:url('5.jpg');
+    min-height:110%;
+    background-size:cover;
+}
+
+.section{
+    text-align:center;
+    padding:50px 80px;
+}
+
+.section-light{
+    background-color:#f4f4f4;
+    color:#666;
+}
+
+
+.section-dark{
+    background-color:#282e34;
+    color:#ddd;
+}
+.ptext{
+    position:absolute;
+    top:200px;
+    width:100%;
+    text-align:center;
+    color:#000;
+    font-size:27px;
+    letter-spacing:8px;
+    text-transform: uppercase;
+}
+
+.ptext .border{
+    background-color: #111;
+    color: #fff;
+    padding:20px;
+}
+
+.ptext1{
+    position:absolute;
+    top:200px;
+    width:100%;
+    text-align:center;
+    color:white;
+    font-size:37px;
+    letter-spacing:8px;
+    text-transform: uppercase;
+}
+
+@media(max-width:568px){
+    .ping1,.ping2,.ping3{
+        background-attachment: scroll; 
+        min-height: 50%;
+    }
+    .ptext{
+        font-size:10px;
+        letter-spacing:4px;
+        text-align:center;
+    }
+    .ptext1{
+        font-size:14px;
+        letter-spacing:5px;
+        text-align:center;
+    }
+
+}
+
+.wrapper{
+    max-width:350px;
+    border-radius:10px;
+    margin:auto;
+    background:rgba(0,0,0,0.8);
+    box-sizing: border-box;
+    padding:40px;
+    color:#fff;
+}
+h2.play{
+    text-align: center;
+}
+input[type=text],input[type=date]{
+    width:100%;
+    box-sizing: border-box;
+    padding:12px 5px;
+    background:rgba(0,0,0,0.10);
+    outline:none;
+    border:none;
+    border-bottom:1px dotted #fff;
+    color:#fff;
+    border-radius:5px;
+    margin:5px;
+    font-weight:bold;
+}
+input[type=submit]{
+    width:100%;
+    box-sizing: border-box;
+    padding:10px 0;
+    margin-top:30px;
+    outline:none;
+    border:none;
+    background:#60adde;
+    opacity:0.7;
+    border-radius:20px;
+    font-size:20px;
+    color:#fff;
+
+}
+
+input[type=submit]:hover{
+    background:#003366;
+    opacity:0.7;
+}
